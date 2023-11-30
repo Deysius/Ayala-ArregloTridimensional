@@ -19,5 +19,14 @@ int filas, columnas,num;
                 printf("\n");
                 }
                 }
+    for (int k = num; k<= num; k++){
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                matriz[i][j][k] = 1;
+                printf("%d ", matriz[i][j][k]);
+                }
+                printf("\n");
+                }
+                }
 return 0;   
 }
