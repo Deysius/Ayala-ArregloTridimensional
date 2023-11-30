@@ -20,6 +20,7 @@ int filas, columnas,num;
                 }
                 }
     for (int k = num; k<= num; k++){
+    //Mediante este for, imprimo mi ultima matriz llenos de 1
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 matriz[i][j][k] = 1;
